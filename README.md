@@ -30,6 +30,6 @@ To Create a new quiz just create a JSON file with the following syntax:
 }
 ```
 
-Save the file as a JSON file, for example: `html.json`
+### 💾 Save the file as a JSON file, for example: `html.json`
 
-If your quiz is in spanish add the language code into your file name like this: `html.es.json` instead of `html.json`
+### If your quiz is in 🇪🇸 Spanish add the language code into your file name like this: `html.es.json` instead of `html.json`

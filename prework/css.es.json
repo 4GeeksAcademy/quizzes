@@ -1,0 +1,479 @@
+{
+	"info": {
+		"slug": "css",
+		"name": "Aprende sobre CSS",
+		"main": "¿Crees que sabes mucho sobre CSS? Descúbrelo con este cuestionario de conocimiento súper loco",
+		"results": "Aprende más: Echa un vistazo a la lección sobre CSS !.",
+		"badges": [
+			{ "slug": "tag-master", "points": 5 },
+			{ "slug": "select-everything", "points": 8 },
+			{ "slug": "position-vs-display", "points": 3 }
+		]
+	},
+	"questions": [{
+		"q": "¿Dónde en un documento HTML es el lugar correcto para referirse a una hoja de estilo externa?",
+		"a": [{
+				"option": "Al final del documento",
+				"correct": false
+			},
+			{
+				"option": "En la sección <body>",
+				"correct": false
+			},
+			{
+				"option": "En la sección <head>",
+				"correct": true
+			}
+		]
+	}, {
+		"q": "¿Qué atributo HTML se usa para definir estilos en línea?",
+		"a": [{
+				"option": "style",
+				"correct": true
+			},
+			{
+				"option": "class",
+				"correct": false
+			},
+			{
+				"option": "font",
+				"correct": false
+			}
+		]
+	}, {
+		"q": "¿Cuál es la sintaxis CSS correcta?",
+		"a": [{
+				"option": "{body;color:black;}",
+				"correct": false
+			},
+			{
+				"option": "body {color: black;}",
+				"correct": true
+			},
+			{
+				"option": "body:color=black;",
+				"correct": false
+			}
+		]
+	}, {
+		"q": "¿Cómo se inserta un comentario en un archivo CSS?",
+		"a": [{
+				"option": "/* this is a comment */",
+				"correct": true
+			},
+			{
+				"option": "// this is a comment //",
+				"correct": false
+			},
+			{
+				"option": "// this is a comment",
+				"correct": false
+			}
+		]
+	}, {
+		"q": "¿Qué propiedad se usa para cambiar el color de fondo?",
+		"a": [{
+				"option": "bgcolor",
+				"correct": false
+			},
+			{
+				"option": "color",
+				"correct": false
+			},
+			{
+				"option": "background-color",
+				"correct": true
+			}
+		]
+	}, {
+		"q":"¿Cómo se agrega un color de fondo para todos los elementos <h1>?",
+		"a": [{
+				"option": "h1.all {background-color:#FFFFFF;}",
+				"correct": false
+			},
+			{
+				"option": "all.h1 {background-color:#FFFFFF;}",
+				"correct": false
+			},
+			{
+				"option": "h1 {background-color:#FFFFFF;}",
+				"correct": true
+			}
+		]
+	}, {
+		"q": "¿Qué propiedad CSS se usa para cambiar el color del texto de un elemento?",
+		"a": [{
+				"option": "color",
+				"correct": true
+			},
+			{
+				"option": "fgcolor",
+				"correct": false
+			},
+			{
+				"option": "text-color",
+				"correct": false
+			}
+		]
+	}, {
+		"q": "¿Qué propiedad CSS controla el tamaño del texto?",
+		"a": [{
+				"option": "font-size",
+				"correct": true
+			},
+			{
+				"option": "text-size",
+				"correct": false
+			},
+			{
+				"option": "text-style",
+				"correct": false
+			}
+		]
+	}, {
+		"q": "¿Cuál es la sintaxis CSS correcta para poner en negrita todos los elementos <p>?",
+		"a": [{
+				"option": "p {text-size:bold;}",
+				"correct": false
+			},
+			{
+				"option": "p {font-weight:bold;}",
+				"correct": true
+			},
+			{
+				"option": "p style=\" text - size: bold;\">",
+				"correct": false
+			}
+		]
+	}, {
+		"q": "¿Cómo se muestran los hipervínculos sin un subrayado?",
+		"a": [{
+				"option": "a {text-decoration:none;}",
+				"correct": true
+			},
+			{
+				"option": "a {text-decoration:no-underline;}",
+				"correct": false
+			},
+			{
+				"option": "a {decoration:no-underline;}",
+				"correct": false
+			}
+		]
+	}, {
+		"q": "¿Cómo se hace que cada palabra en un texto comience con una letra mayúscula?",
+		"a": [{
+				"option": "No se puede hacer eso con CSS",
+				"correct": false
+			},
+			{
+				"option": "text-decoration:capitalize",
+				"correct": false
+			},
+			{
+				"option": "text-transform:capitalize",
+				"correct": true
+			}
+		]
+	}, {
+		"q": "¿Qué propiedad se usa para cambiar la fuente de un elemento?",
+		"a": [{
+				"option": "font",
+				"correct": false
+			},
+			{
+				"option": "Both font-family and font can be used",
+				"correct": false
+			},
+			{
+				"option": "font-family",
+				"correct": true
+			}
+		]
+	}, {
+		"q": "¿Cómo hacer que el texto en negrita?",
+		"a": [{
+				"option": "font-weight:bold;",
+				"correct": true
+			},
+			{
+				"option": "font:bold;",
+				"correct": false
+			},
+			{
+				"option": "style:bold;",
+				"correct": false
+			}
+		]
+	}, {
+		"q": "¿Qué propiedad se usa para cambiar el margen izquierdo de un elemento?",
+		"a": [{
+				"option": "indent",
+				"correct": false
+			},
+			{
+				"option": "padding-left",
+				"correct": false
+			},
+			{
+				"option": "margin-left",
+				"correct": true
+			}
+		]
+	}, {
+		"q": "Cuando se usa la propiedad de padding, ¿se le permite usar valores negativos?",
+		"a": [{
+				"option": "yes",
+				"correct": false
+			},
+			{
+				"option": "no",
+				"correct": true
+			}
+		]
+	}, {
+		"q": "¿Cómo seleccionas un elemento con id \" demo \ "?",
+		"a": [{
+				"option": "*demo",
+				"correct": false
+			},
+			{
+				"option": "demo",
+				"correct": false
+			},
+			{
+				"option": "#demo",
+				"correct": true
+			}
+		]
+	}, {
+		"q": "¿Cómo selecciona elementos con el nombre de clase \" test \ "?",
+		"a": [{
+				"option": "*test",
+				"correct": false
+			},
+			{
+				"option": "test",
+				"correct": false
+			},
+			{
+				"option": ".test",
+				"correct": true
+			}
+		]
+	}, {
+		"q": "¿Cómo seleccionas todos los elementos p dentro de un elemento div?",
+		"a": [{
+				"option": "div.p",
+				"correct": false
+			},
+			{
+				"option": "div p",
+				"correct": true
+			},
+			{
+				"option": "div + p",
+				"correct": false
+			}
+		]
+	}, {
+		"q": "¿Cuál es el valor predeterminado de la propiedad de posición?",
+		"a": [{
+				"option": "amazing",
+				"correct": false
+			},
+		      {
+				"option": "inline",
+				"correct": false
+			},
+			{
+				"option": "absolute",
+				"correct": false
+			},
+			{
+				"option": "static",
+				"correct": true
+			}
+		]
+	}, {
+		"q": "En CSS, ¿cómo seleccionaría todas las etiquetas <p> en una página? Por favor elija una de las siguientes opciones.",
+		"a": [{
+				"option": "#p { }",
+				"correct": false
+			},
+			{
+				"option": ".p { }",
+				"correct": false
+			},
+			{
+				"option": "p { }",
+				"correct": true
+			}
+		]
+	}, {
+		"q": "En CSS, ¿cómo seleccionaría esta imagen por su id? < img id =\"mainpic\"src = \"cat.png\" > ",
+		"a": [{
+				"option": "mainpic { }",
+				"correct": false
+			},
+			{
+				"option": ".mainpic { }",
+				"correct": false
+			},
+			{
+				"option": "#mainpic { }",
+				"correct": true
+			}
+		]
+	}, {
+		"q": "¿Cuál de los siguientes selectores selecciona todos los elementos de párrafo con un atributo lang?",
+		"a": [{
+				"option": "[lang=\"fr\"]",
+				"correct": false
+			},
+			{
+				"option": "p[lang~=\"fr\"]",
+				"correct": false
+			},
+			{
+				"option": "p[lang]",
+				"correct": true
+			}
+		]
+	}, {
+		"q": "¿Cuál de las siguientes opciones define una medida como un porcentaje en relación con otro valor, típicamente un elemento envolvente?",
+		"a": [{
+				"option": "cm",
+				"correct": false
+			},
+			{
+				"option": "%",
+				"correct": true
+			},
+			{
+				"option": "ex",
+				"correct": false
+			}
+		]
+	}, {
+		"q": "¿Cuál de las siguientes opciones define una medida en picas?",
+		"a": [{
+				"option": "in",
+				"correct": false
+			},
+			{
+				"option": "mm",
+				"correct": false
+			},
+			{
+				"option": "pc",
+				"correct": true
+			}
+		]
+	}, {
+		"q": "¿Cuál de las siguientes propiedades se utiliza para crear un efecto de pequeña capitalización?",
+		"a": [{
+				"option": "font-variant",
+				"correct": true
+			},
+			{
+				"option": "font-family",
+				"correct": false
+			},
+			{
+				"option": "font-style",
+				"correct": false
+			}
+		]
+	}, {
+		"q": "¿Cuál de las siguientes propiedades se usa para subrayar y tachar el texto?",
+		"a": [{
+				"option": "text-indent",
+				"correct": false
+			},
+			{
+				"option": "text-align",
+				"correct": false
+			},
+			{
+				"option": "text-decoration",
+				"correct": true
+			}
+		]
+	}, {
+		"q": "¿Cuál de las siguientes propiedades se usa para establecer la altura de una imagen?",
+		"a": [{
+				"option": "border",
+				"correct": false
+			},
+			{
+				"option": "width",
+				"correct": false
+			},
+			{
+				"option": "height",
+				"correct": true
+			}
+		]
+	}, {
+		"q": "¿Cuál de las siguientes propiedades especifica si un borde debe ser sólido, línea discontinua, línea doble o uno de los otros valores posibles?",
+		"a": [{
+				"option": ":border-color",
+				"correct": false
+			},
+			{
+				"option": ":border-width",
+				"correct": false
+			},
+			{
+				"option": ":border-style",
+				"correct": true
+			}
+		]
+	}, {
+		"q": "¿Cuál de las siguientes propiedades cambia el estilo del borde inferior?",
+		"a": [{
+				"option": ":border-right-style",
+				"correct": false
+			},
+			{
+				"option": ":border-left-style",
+				"correct": false
+			},
+			{
+				"option": ":border-bottom-style",
+				"correct": true
+			}
+		]
+	}, {
+		"q": "¿Cuál de las siguientes propiedades especifica una imagen para el marcador en lugar de una viñeta o un número?",
+		"a": [{
+				"option": "list-style",
+				"correct": false
+			},
+			{
+				"option": "list-style-image",
+				"correct": true
+			},
+			{
+				"option": "list-style-type",
+				"correct": false
+			}
+		]
+	}, {
+		"q": "¿Cuál de los siguientes valores del cursor lo muestra como una cruz o un signo más?",
+		"a": [{
+				"option": "default",
+				"correct": false
+			},
+			{
+				"option": "pointer",
+				"correct": false
+			},
+			{
+				"option": "crosshair",
+				"correct": true
+			}
+		]
+	}]
+}

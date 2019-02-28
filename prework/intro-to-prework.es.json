@@ -1,0 +1,144 @@
+{
+	"info": {
+		"slug": "Introducción al Prework",
+		"name": "La arquitectura del Internet",
+		"main": "<p>Pon a prueba tu conocimiento y comprensión de internet.</p>",
+		"results": "¡Genial! Si obtuviste más del 75% de las preguntas, has ganado más puntos para convertirte en un desarrollador web de pila completa".
+		"badges": [{
+			"slug": "docu-lover",
+			"points": 5
+		},
+		{
+			"slug": "client-vs-server",
+			"points": 5
+		}]
+	},
+	"questions": [{
+			"q": "Todo lo que ve en su navegador viaja por Internet como:",
+			"a": [{
+					"option": "Text",
+					"correct": true
+				},
+				{
+					"option": "Images",
+					"correct": false
+				},
+				{
+					"option": "Bytes of information",
+					"correct": false
+				}, {
+					"option": "Binary code",
+					"correct": false
+				}
+			]
+		},
+		{
+			"q": "¿Cuál es la función principal que hace un SERVIDOR?",
+			"a": [{
+					"option": "Es responsable de conectar al usuario a internet ",
+					"correct": false
+				},
+				{
+					"option": "No tengo idea, la gente habla de estos 'servidores', pero es difícil de entender.",
+					"correct": false
+				},
+				{
+					"option": "Los servidores son la cara de los sitios web, representan cualquier información que el usuario quiera ver",
+					"correct": false
+				},
+				{
+					"option":"Los servidores proporcionan la información que solicitan los navegadores web o las aplicaciones móviles.",
+					"correct": true
+				}
+			]
+		},
+		{
+			"q": "¿Cuál es la función principal que hace BROWSER?",
+			"a": [{
+					"option": "Es un software que traduce todos los datos entrantes de Internet a su representación visual",
+					"correct": true
+				},
+				{
+					"option": "Es el sistema operativo de la computadora.",
+					"correct": false
+				},
+				{
+					"option": "Es el sitio web que utilizamos para buscar en Internet.",
+					"correct": false
+				},
+				{
+					"option": "A quién le importa, no le presté atención a esta lección porque creo que puedo saltearla.",
+					"correct": false
+				}
+			]
+		},
+		{
+			"q": "¿Cuál es la diferencia entre el cliente y el servidor?",
+			"a": [{
+					"option": "Son los mismos, procesan las solicitudes del usuario y muestran la información en sus respectivas pantallas",
+					"correct": false
+				},
+				{
+					"option":"El servidor es responsable de atender a una gran cantidad de clientes mediante la entrega de texto/datos en bruto, luego, cada cliente interpreta los datos y los muestra gráficamente en la pantalla del usuario",
+					"correct": true
+				},
+				{
+					"option": "Los servidores llevan la comida a las mesas de la gente y te permiten disfrutar de tu cena, el cliente es: quienquiera que esté comiendo y pagando esa cena".,
+					"correct": false
+				}
+			]
+		},
+		{
+			"q": "¿Qué idiomas se pueden usar y ejecutar solo en el SERVIDOR?",
+			"a": [{
+					"option": "HTML, CSS, Javascript",
+					"correct": false
+				},
+				{
+					"option": "PHP, Python, Ruby",
+					"correct": true
+				},
+				{
+					"option": "Java, SQL and Javascript",
+					"correct": false
+				}
+			]
+		},
+		{
+			"q": "¿Qué idiomas se pueden usar y ejecutar en un CLIENTE?",
+			"a": [{
+					"option": "HTML, CSS, Javascript",
+					"correct": true
+				},
+				{
+					"option": "PHP, Python, Ruby",
+					"correct": false
+				},
+				{
+					"option": "Java, SQL and Javascript",
+					"correct": false
+				}
+			]
+		},
+		{
+			"q": "¿Cuál es nuestro propósito como desarrolladores web de pila completa?",
+			"a": [{
+					"option": "Tenemos que asegurarnos de que el servidor esté en línea".,
+					"correct": false
+				},
+				{
+					"option": "Tenemos que escribir el código que será interpretado por el servidor y el cliente para hacer que los sitios web funcionen.",
+					"correct": true
+				},
+				{
+					"option": "Tenemos que asegurarnos de que la computadora cliente funcione y no tenga virus.",
+					"correct": false
+				},
+				{
+					"option": "Ahora que sabemos cómo codificar, podemos arreglar las computadoras de nuestras familias de forma gratuita siempre que se nos solicite hacerlo.",
+					"correct": false
+				}
+			]
+		}
+	]
+}

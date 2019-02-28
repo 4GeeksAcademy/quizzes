@@ -1,0 +1,72 @@
+{
+	"info": {
+		"slug": "Arquitectura del Internet",
+		"name": "¿Qué sabes sobre la arquitectura de internet?",
+		"main": "<p>Saber la arquitectura es obligatorio para entender el desarrollo web, ¡debes saber esto!</p>",
+		"results": "¡Has terminado! Recuerde, debe responder correctamente el 75% de las preguntas para obtener las insignias.",
+		"badges": [{
+			"slug": "docu-lover",
+			"points": 5
+		}]
+	},
+	"questions": [{
+			"q": "Independientemente de lo que pienses, la filosofía de Shu-Ha-Ri funciona, pero... ¿qué significa?",
+			"a": [{
+					"option": "Que puedo hacer lo que quiera, cuando quiera".,
+					"correct": false
+				},
+				{
+					"option": "Que necesito seguir los procedimientos exactamente como se dice hasta que me sienta cómodo.",
+					"correct": true
+				},
+				{
+					"option": "Es el sonido que hacen los humanos cuando estornudan".,
+					"correct": false
+				}, {
+					"option": "Es un arte marcial desarrollado por los antiguos egipcios del noroeste",
+					"correct": false
+				}
+			]
+		},
+		{
+			"q": "¿Para qué sirven las lecciones en clase?",
+			"a": [{
+					"option": "Reforzar la teoría que aprendí por mi cuenta.",
+					"correct": false
+				},
+				{
+					"option": "Para hacer proyectos asombrosos y practicar, practicar, practicar!",
+					"correct": true
+				},
+				{
+					"option": "Hacer ejercicios repetitivos",
+					"correct": false
+				},
+				{
+					"option": "Para ponerme al día con todo lo que tengo detrás",
+					"correct": false
+				}
+			]
+		},
+		{
+			"q": "¿Por qué necesitas leer solo?",
+			"a": [{
+					"option": "Porque es parte de la capacitación y tendré que hacerlo todo el tiempo después de convertirme en desarrollador",
+					"correct": true
+				},
+				{
+					"option": "Porque el instructor es perezoso y odia enseñar estas cosas",
+					"correct": false
+				},
+				{
+					"option": "Porque la academia quiere hacerme daño",
+					"correct": false
+				},
+				{
+					"option": "Porque el cielo es azul",
+					"correct": false
+				}
+			]
+		}
+	]
+}

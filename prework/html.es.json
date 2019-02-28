@@ -1,0 +1,228 @@
+{
+	"info": {
+		"slug": "html",
+		"name": "Aprende sobre HTML",
+		"main": "<p>¿Has leído la lección de HTML? ¡Veamos!</p>",
+		"results": "Aprende más: ¡Echa un vistazo a la lección sobre HTML!.",
+		"badges": [{
+				"slug": "tag-master",
+				"points": 15
+			},
+			{
+				"slug": "path-master",
+				"points": 6
+			}
+		]
+	},
+	"questions": [{
+		"q": "Elija el elemento HTML correcto para el encabezado más grande:",
+		"a": [{
+				"option": "<h6>",
+				"correct": false
+			},
+			{
+				"option": "<h1>",
+				"correct": true
+			},
+			{
+				"option": "<heading>",
+				"correct": false
+			}
+		]
+	}, {
+		"q": "¿Cuál es el elemento HTML correcto para insertar un salto de línea?",
+		"a": [{
+				"option": "<break>",
+				"correct": false
+			},
+			{
+				"option": "<lb>",
+				"correct": false
+			},
+			{
+				"option": "<br>",
+				"correct": true
+			}
+		]
+	}, {
+		"q": "¿Cuál es el HTML correcto para crear un hipervínculo?",
+		"a": [{
+				"option": "<a>http://www.w3schools.com</a>",
+				"correct": false
+			},
+			{
+				"option": "<a href=\"http://www.w3schools.com\">W3Schools</a>",
+				"correct": true
+			},
+			{
+				"option": "<a url=\"http://www.w3schools.com\">W3Schools.com</a>",
+				"correct": false
+			}
+		]
+	}, {
+		"q": "¿Qué carácter se utiliza para indicar el fin de etiqueta?",
+		"a": [{
+				"option": "/",
+				"correct": true
+			},
+			{
+				"option": "^",
+				"correct": false
+			},
+			{
+				"option": "<",
+				"correct": false
+			}
+		]
+	}, {
+		"q": "¿Cómo se puede abrir un enlace en una nueva pestaña / ventana del navegador?",
+		"a": [{
+				"option": "<a href=\"url\" new>",
+				"correct": false
+			},
+			{
+				"option": "<a href = \"url\" target=\"_blank\">",
+				"correct": true
+			},
+			{
+				"option": "<a href=\"url\" new=\"window\">",
+				"correct": false
+			}
+		]
+	}, {
+		"q": "¿Cuál de estos elementos son todos elementos <table>?",
+		"a": [{
+				"option": "<table><tr><td>",
+				"correct": true
+			},
+			{
+				"option": "<table><tr><tt>",
+				"correct": false
+			},
+			{
+				"option": "<table><head><tfoot>",
+				"correct": false
+			}
+		]
+	}, {
+		"q": "¿Cómo puedes hacer una lista numerada?",
+		"a": [{
+				"option": "<list>",
+				"correct": false
+			},
+			{
+				"option": "<ul>",
+				"correct": false
+			},
+			{
+				"option": "<ol>",
+				"correct": true
+			}
+		]
+	}, {
+		"q": "¿Cuál es el HTML correcto para insertar una imagen?",
+		"a": [{
+				"option": "<img href=\"image.gif\" alt=\"MyImage\">",
+				"correct": false
+			},
+			{
+				"option": "<img src=\"image.gif\" alt=\"MyImage\">",
+				"correct": true
+			},
+			{
+				"option": "<img alt=\"MyImage\">image.gif</img>",
+				"correct": false
+			}
+		]
+	}, {
+		"q": "¿Cuál elemento HTML define el título de un documento?",
+		"a": [{
+				"option": "<title>",
+				"correct": true
+			},
+			{
+				"option": "<meta>",
+				"correct": false
+			},
+			{
+				"option": "<head>",
+				"correct": false
+			}
+		]
+	}, {
+		"q": "¿Cuál de las siguientes etiquetas se usa para un control de entrada de texto de varias líneas?",
+		"a": [{
+				"option": "textml",
+				"correct": false
+			},
+			{
+				"option": "textarea",
+				"correct": true
+			},
+			{
+				"option": "Both a and b",
+				"correct": false
+			}
+		]
+	}, {
+		"q": "¿Para qué sirve la etiqueta <br>?",
+		"a": [{
+				"option": "Salto de palabra",
+				"correct": false
+			},
+			{
+				"option": "Salto de párrafo",
+				"correct": false
+			},
+			{
+				"option": "Salto de línea",
+				"correct": true
+			}
+		]
+	}, {
+		"q": "¿Para qué se usan las etiquetas <div>?",
+		"a": [{
+				"option": "Para dividir lógicamente el documento",
+				"correct": true
+			},
+			{
+				"option": "Para proporcionar espacio entre tablas",
+				"correct": false
+			},
+			{
+				"option": "Para dividir lógicamente los párrafos",
+				"correct": false
+			}
+		]
+	}, {
+		"q": "¿Cuántos atributos puede tener una etiqueta html?",
+		"a": [{
+				"option": "Uno",
+				"correct": false
+			},
+			{
+				"option": "Ninguno",
+				"correct": false
+			},
+			{
+				"option": "Ilimitado",
+				"correct": true
+			}
+		]
+	}, {
+		"q": "¿Cuál es el propósito principal de cualquier atributo?",
+		"a": [{
+				"option": "Determinar la visibilidad de la etiqueta",
+				"correct": false
+			},
+			{
+				"option": "Proporcionar información adicional sobre la etiqueta",
+				"correct": true
+			},
+			{
+				"option": "Establecer el id de la etiqueta",
+				"correct": false
+			}
+		]
+	}]
+}

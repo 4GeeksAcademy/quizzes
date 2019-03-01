@@ -1,0 +1,58 @@
+{
+    "info": {
+        "name":    "Aprenda sobre los eventos de Javascript",
+        "slug":    "events",
+        "status":    "draft",
+        "main":    "<p>¿Crees que sabes mucho sobre los eventos? Descúbrelo con este cuestionario de conocimiento súper loco!</p>",
+        "results": "<h5>Aprende más</h5><p>Echa un vistazo a la lección sobre eventos !.</p>",
+        "badges": [
+            { "slug": "css_master", "points": 23 }, 
+            { "slug": "html_master", "points": 45 } 
+        ]
+    },
+    "questions": [
+        {
+            "q": "¿Cuál de los siguientes es el controlador de eventos correcto para detectar un clic del mouse en un enlace?",
+            "a": [
+                {"option": "onMouseUp",      "correct": false},
+                {"option": "onLink",     "correct": false},
+                {"option": "onClick",      "correct": true}
+            ]
+        },
+        {
+            "q": "¿Cuándo se ejecuta el controlador de eventos onLoad para la etiqueta <body>?",
+            "a": [
+                {"option": "Cuando una imagen termina de cargarse.",           "correct": false},
+                {"option": "Cuando toda la página se termina de cargar.",     "correct": true},
+                {"option": "Cuando el usuario intenta cargar otra página.",  "correct": false},
+                {"option": "Cuando reinicies tu computadora.",               "correct": false}
+            ]
+        },
+        {
+            "q": "¿Dónde estás ahora mismo? Seleccione todas las que correspondan.",
+            "a": [
+                {"option": "Planeta Tierra",           "correct": true},
+                {"option": "Pluto",                  "correct": false},
+                {"option": "En un dispositivo informatico",  "correct": true},
+                {"option": "Via Láctea",          "correct": true}
+            ],
+            "select_any": true
+        },
+        {
+            "q": "How many inches of rain does Michigan get on average per year?",
+            "a": [
+                {"option": "149",    "correct": false},
+                {"option": "32",     "correct": true},
+                {"option": "3",      "correct": false},
+                {"option": "1291",   "correct": false}
+            ]
+        },
+        {
+            "q": "Is Earth bigger than a basketball?",
+            "a": [
+                {"option": "Yes",    "correct": true},
+                {"option": "No",     "correct": false}
+            ]
+        }
+    ]
+}

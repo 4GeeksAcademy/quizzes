@@ -3,7 +3,7 @@
 		"slug": "Introducción al Prework",
 		"name": "La arquitectura del Internet",
 		"main": "<p>Pon a prueba tu conocimiento y comprensión de internet.</p>",
-		"results": "¡Genial! Si obtuviste más del 75% de las preguntas, has ganado más puntos para convertirte en un desarrollador web de pila completa".
+		"results": "¡Genial! Si obtuviste más del 75% de las preguntas, has ganado más puntos para convertirte en un desarrollador web de pila completa.",
 		"badges": [{
 			"slug": "docu-lover",
 			"points": 5
@@ -83,7 +83,7 @@
 					"correct": true
 				},
 				{
-					"option": "Los servidores llevan la comida a las mesas de la gente y te permiten disfrutar de tu cena, el cliente es: quienquiera que esté comiendo y pagando esa cena".,
+					"option": "Los servidores llevan la comida a las mesas de la gente y te permiten disfrutar de tu cena, el cliente es: quienquiera que esté comiendo y pagando esa cena.",
 					"correct": false
 				}
 			]
@@ -123,7 +123,7 @@
 		{
 			"q": "¿Cuál es nuestro propósito como desarrolladores web de pila completa?",
 			"a": [{
-					"option": "Tenemos que asegurarnos de que el servidor esté en línea".,
+					"option": "Tenemos que asegurarnos de que el servidor esté en línea.",
 					"correct": false
 				},
 				{

@@ -12,7 +12,7 @@
 	"questions": [{
 			"q": "Independientemente de lo que pienses, la filosofía de Shu-Ha-Ri funciona, pero... ¿qué significa?",
 			"a": [{
-					"option": "Que puedo hacer lo que quiera, cuando quiera".,
+					"option": "Que puedo hacer lo que quiera, cuando quiera.",
 					"correct": false
 				},
 				{
@@ -20,7 +20,7 @@
 					"correct": true
 				},
 				{
-					"option": "Es el sonido que hacen los humanos cuando estornudan".,
+					"option": "Es el sonido que hacen los humanos cuando estornudan.",
 					"correct": false
 				}, {
 					"option": "Es un arte marcial desarrollado por los antiguos egipcios del noroeste",

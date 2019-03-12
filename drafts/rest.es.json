@@ -1,0 +1,274 @@
+{
+	"info": {
+		"slug": "rest",
+		"name": "Pruebe tu conocimiento de API RESTful",
+		"main": "¡Cuidado, muchas preguntas de HTTP, solicitudes, respuestas y REST están relacionadas con el inicio del bombeo!",
+		"results": "Más información: ¡Echa un vistazo a la lección sobre REST!.",
+		"badges": [
+		]
+	},
+	"questions": [
+		{
+		"q": "¿Cuál es el formato de serialización principal para las API RESTful?",
+		"a": [{
+				"option": "Javascript",
+				"correct": false
+			},
+			{
+				"option": "Programming Languages",
+				"correct": false
+			},
+			{
+				"option": "JSON",
+				"correct": true
+			},
+			{
+				"option": "HTTP",
+				"correct": false
+			}
+		]
+	}, {
+		"q": "¿Por qué crees que JSON se hizo tan popular?",
+		"a": [{
+				"option": "Porque es el formato más rápido que hay",
+				"correct": false
+			},
+			{
+				"option": "Porque es fácil de leer para desarrolladores.",
+				"correct": true
+			},
+			{
+				"option": "Porque parece ingles",
+				"correct": false
+			}
+		]
+	}, {
+		"q": "Si está desarrollando una API y desea proporcionar un servicio para agregar clientes a la base de datos, ¿cuál sería el tipo ideal de solicitud REST?",
+		"a": [{
+				"option": "GET",
+				"correct": false
+			},
+			{
+				"option": "POST",
+				"correct": false
+			},
+			{
+				"option": "PUT",
+				"correct": true
+			},
+			{
+				"option": "DELETE",
+				"correct": false
+			}
+		]
+	}, {
+		"q": "Si está desarrollando una API y desea proporcionar un servicio para agregar clientes a la base de datos, ¿cuál sería la URL de solicitud ideal?",
+		"a": [{
+				"option": "PUT: /create/client",
+				"correct": false
+			},
+			{
+				"option": "PUT: /create_client",
+				"correct": false
+			},
+			{
+				"option": "PUT: /client",
+				"correct": true
+			},
+			{
+				"option": "PUT: /create-client/client/",
+				"correct": false
+			}
+		]
+	}, {
+		"q": "¿Cuál sería la mejor manera de implementar una función de inicio de sesión utilizando una API REST?",
+		"a": [{
+				"option": "Cree una solicitud POST: / login que reciba el usuario: contraseña y abra una sesión en la API cuando se llame, a partir de ese momento, todas las solicitudes se consideran parte de la misma sesión de inicio de sesión.",
+				"correct": false
+			},
+			{
+				"option": "Cree un POST: / login solicitudes que reciban user: password y devuelva un hash que dure X cantidad de tiempo, ese hash tendrá que ser agregado en cada solicitud para ser considerado como parte de la misma sesión.n",
+				"correct": true
+			},
+			{
+				"option": "Cualquier enfoque es igualmente válido",
+				"correct": false
+			}
+		]
+	}, {
+		"q": "¿Por qué necesitamos serializar cosas?",
+		"a": [{
+				"option": "Porque los objetos deben ser enviados como objetos",
+				"correct": false
+			},
+			{
+				"option": "Porque la única forma de enviar información es transformarla en texto",
+				"correct": true
+			},
+			{
+				"option": "Porque es una buena práctica en cualquier API RESTful",
+				"correct": false
+			},
+			{
+				"option": "Porque se nos dice que lo hagamos, y debemos seguir sin cuestionar",
+				"correct": false
+			}
+		]
+	}, {
+		"q": "Al crear una API, ¿cuándo es el mejor momento para serializar?",
+		"a": [{
+				"option": "Justo antes de devolver nuestra respuesta",
+				"correct": true
+			},
+			{
+				"option": "Justo después de recibir la solicitud",
+				"correct": false
+			},
+			{
+				"option": "Cuando estamos a punto de guardar la información en la base de datos",
+				"correct": false
+			},
+			{
+				"option": "No hay un momento adecuado, depende de cada desarrollador.",
+				"correct": false
+			}
+		]
+	}, {
+		"q": "¿Todo es texto?",
+		"a": [{
+				"option": "¡Sí! ¡Todo es! Incluso objetos y contenidos variables.",
+				"correct": false
+			},
+			{
+				"option": "Solo los datos que viajan a través de HTTP (como JSON) o se almacenan son texto",
+				"correct": true
+			},
+			{
+				"option": "Solo las imágenes y archivos son de texto, el resto es binario.",
+				"correct": false
+			},
+			{
+				"option": "No estoy seguro, pero los instructores siempre dicen que todo es texto, así que lo repetiré aquí.",
+				"correct": false
+			}
+		]
+	}, {
+		"q": "Si todo lo que viaja sobre el protocolo HTTP es texto, ¿cómo comprobamos qué formato contiene para poder interpretarlo?",
+		"a": [{
+				"option": "Debemos comprobar el tipo de contenido.",
+				"correct": true
+			},
+			{
+				"option": "Deberíamos comprobar la extensión en la URL",
+				"correct": false
+			},
+			{
+				"option": "Debemos abrir el archivo en nuestra computadora y leer el contenido para poder entender el formato.",
+				"correct": false
+			}
+		]
+	}, {
+		"q": "Según las mejores prácticas de REST, ¿para qué es esta solicitud de API? POST: /author/204/album/3",
+		"a": [{
+				"option": "Para crear un nuevo álbum con el id 3, para el autor con el id 204",
+				"correct": false
+			},
+			{
+				"option": "Actualizar el álbum con el id 3 realizado por el autor con el id 204.",
+				"correct": true
+			},
+			{
+				"option": "Para establecer el usuario 204 como autor del álbum 3",
+				"correct": false
+			},
+			{
+				"option": "Se puede utilizar para cualquiera de las opciones anteriores",
+				"correct": false
+			}
+		]
+	}, {
+		"q": "¿Cuáles son las razones para generar un token de autenticación?",
+		"a": [{
+				"option": "Hacer que los clientes API envíen una firma de hash en cada solicitud para validar su sesión",
+				"correct": false
+			},
+			{
+				"option": "Obligando a todos los clientes API a autenticarse en cada solicitud con nombre de usuario y contraseña",
+				"correct": false
+			},
+			{
+				"option": "Forzar a los clientes de la API a iniciar sesión en la primera solicitud y mantener abierta una sesión para ese cliente durante un cierto período de tiempo.",
+				"correct": true
+			}
+		]
+	}, {
+		"q": "¿Qué código de respuesta indica un problema con el servidor?",
+		"a": [{
+				"option": "2XX",
+				"correct": false
+			},
+			{
+				"option": "4XX",
+				"correct": false
+			},
+			{
+				"option": "5XX",
+				"correct": true
+			},
+			{
+				"option":"1XX",
+				"correct":false
+			}
+		]
+	}, {
+		"q": "Supongamos que desea cambiar la dirección de correo de un usuario, ¿qué solicitud de http sería la más adecuada?",
+		"a": [{
+				"option": "PUT",
+				"correct": true
+			},
+			{
+				"option": "GET",
+				"correct": false
+			},
+			{
+				"option": "POST",
+				"correct": false
+			}
+		]
+	}, {
+		"q": "¿Por qué la operación GET se considera una operación segura?",
+		"a": [{
+				"option": "Puede ser llamado muchas veces sin riesgo de modificación de datos.",
+				"correct": false
+			},
+			{
+				"option": "Llamarlo una vez tiene el mismo efecto que llamarlo diez veces",
+				"correct": false
+			},
+			{
+				"option": "Se puede llamar sin riesgo de corrupción de datos.",
+				"correct": false
+			},
+			{
+				"option": "Todas las anteriores",
+				"correct": true
+			}
+		]
+	}, {
+		"q": "¿En qué escenario se usa POST para todas las operaciones de escritura, como actualizar, eliminar y crear?",
+		"a": [{
+				"option": "Nunca, POST no es el uso apropiado para esas operaciones",
+				"correct": false
+			},
+			{
+				"option": "Porque PUT y DELETE no están disponibles en HTML / Forms",
+				"correct": true
+			},
+			{
+				"option": "Siempre, ya que no hay otras opciones.",
+				"correct": false
+			}
+	]
+	}
+	]
+}

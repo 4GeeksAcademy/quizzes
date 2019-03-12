@@ -1,0 +1,344 @@
+{
+	"info": {
+		"name": "Bootstrap",
+		"main": "Quiz Bootstrap. Componentes, Utilidades, Grid y más.",
+		"results": "¡Sí! ¡Bootstrap es genial!",
+		"badges": [{
+			"slug": "tag-master",
+			"points": "5"
+		}, {
+			"slug": "bootstraper",
+			"points": "5"
+		}, {
+			"slug": "position-vs-display",
+			"points": "5"
+		}, {
+			"slug": "form-inputs",
+			"points": "5"
+		}],
+		"slug": "bootstrap-quiz"
+	},
+	"questions": [{
+		"q": "¿Cuál de estas opciones de clase es la correcta para centrar el texto?",
+		"a": [{
+			"option": "texte-center",
+			"correct": false
+		}, {
+			"option": "text-center",
+			"correct": true
+		}, {
+			"option": "center-text",
+			"correct": false
+		}]
+	}, {
+		"q": "¿Con qué opción de clase alinear un texto al centro?",
+		"a": [{
+			"option": "middle-align",
+			"correct": false
+		}, {
+			"option": "align-medium",
+			"correct": false
+		}, {
+			"option": "align-middle",
+			"correct": true
+		}]
+	}, {
+		"q": "¿Qué elegirías, si quieres un div con 100% de ancho?",
+		"a": [{
+			"option": "<div class=\"w-100\" style=\"background-color: #eee;\">Width 100%</div>",
+			"correct": true
+		}, {
+			"option": "<div class=\"width-100\" style=\"background-color: #eee;\">Width 100%</div>",
+			"correct": false
+		}, {
+			"option": "<div class=\"wd-100\" style=\"background-color: #eee;\">Width 100%</div>",
+			"correct": false
+		}]
+	}, {
+		"q": "Bootstrap tiene muchos componentes, uno de ellos es Form. ¿Para que podemos usarlo?",
+		"a": [{
+			"option": "Write a text",
+			"correct": false
+		}, {
+			"option": "Send data",
+			"correct": true
+		}, {
+			"option": "Show many images",
+			"correct": false
+		}]
+	}, {
+		"q": "Modal es otro componente de bootstrap, y con él puedes mostrar mensajes super geniales. ¿Cuál es la forma correcta de llamar a la acción modal?",
+		"a": [{
+			"option": "<button type=\"button\" class=\"btn btn-primary\" data-toggle=\"modal\" data-target=\"#exampleModal\">   Launch demo modal </button>",
+			"correct": true
+		}, {
+			"option": "<button type=\"button\" class=\"btn btn-primary\" data-toggle=\"modal-message\" data-target=\"#exampleModal\">   Launch demo modal </button>",
+			"correct": false
+		}, {
+			"option": "<button type=\"submit\" class=\"btn btn-primary\" data-toggle=\"modal-message\" data-target=\"#exampleModal\">   Launch demo modal </button>",
+			"correct": false
+		}]
+	}, {
+		"q": "¿Cuál es la forma incorrecta de usar la paginación?",
+		"a": [{
+			"option": "<nav aria-label=\"Page navigation example\">   <ul class=\"pagination\">     <li class=\"page-item\"><a class=\"page-link\" href=\"#\">Previous</a></li>     <li class=\"page-item\"><a class=\"page-link\" href=\"#\">1</a></li></ul></nav>",
+			"correct": false
+		}, {
+			"option": "<nav aria-label=\"Page navigation example\">   <ul class=\"pagination\">     <li class=\"page-item\"><a class=\"\" href=\"#\">Previous</a></li>     <li class=\"page-item\"><a class=\"\" href=\"#\">1</a></li></ul></nav>",
+			"correct": false
+		}, {
+			"option": "<nav aria-label=\"Page navigation example\">   <ul class=\"paginationes\">     <li class=\"page-item\"><a class=\"page-link\" href=\"#\">Previous</a></li>     <li class=\"page-item\"><a class=\"page-link\" href=\"#\">1</a></li></ul></nav>",
+			"correct": true
+		}]
+	}, {
+		"q": "Para alinear su fila div en el medio de su contenedor, ¿qué tipo debería usar?",
+		"a": [{
+			"option": "align-items-center",
+			"correct": true
+		}, {
+			"option": "items-center",
+			"correct": false
+		}, {
+			"option": "center-items-align",
+			"correct": false
+		}]
+	}, {
+		"q": "Si quieres que tu div sea de ancho variable, ¿cuál deberías usar?",
+		"a": [{
+			"option": "col-12",
+			"correct": false
+		}, {
+			"option": "col-md-auto",
+			"correct": true
+		}, {
+			"option": "row",
+			"correct": false
+		}]
+	}, {
+		"q": "A la div le podemos asignar un stop a través de las clases. ¿Cuál no es la correcta?",
+		"a": [{
+			"option": "class=\"h-25 d-inline-block\"",
+			"correct": false
+		}, {
+			"option": "class=\".d-inline-block h-75\"",
+			"correct": false
+		}, {
+			"option": "class=\"height-75 d-inline-block\"",
+			"correct": true
+		}]
+	}, {
+		"q": "¿Cuál es el div para resolución móvil?",
+		"a": [{
+			"option": "<div class=\"col-sm-1\"></div>",
+			"correct": true
+		}, {
+			"option": "<div class=\"col-xs-1\"></div>",
+			"correct": false
+		}, {
+			"option": "<div class=\"col-lg-1\"></div>",
+			"correct": false
+		}]
+	}, {
+		"q": "Para alinear verticalmente dos divs, ¿cuál es la forma correcta?",
+		"a": [{
+			"option": "<div class=\"d-inline p-2 bg-primary text-white\">d-inline</div>",
+			"correct": true
+		}, {
+			"option": "<div class=\"inline p-2 bg-primary text-white\">d-inline</div>",
+			"correct": false
+		}]
+	}, {
+		"q": "<div class=\"row\">   <div class=\"col-auto mr-auto\">Hello</div>   <div class=\"col-auto\">World</div> </div>. Como se muestra en la pantalla?",
+		"a": [{
+			"option": "Hola, a la derecha y al mundo también.",
+			"correct": false
+		}, {
+			"option": "Hola y mundo en el centro.",
+			"correct": false
+		}, {
+			"option": "Hola, a la izquierda y Mundo a la derecha.",
+			"correct": true
+		}]
+	}, {
+		"q": "¿Cuál es la clase para ocultar elementos?",
+		"a": [{
+			"option": "class=\"display-none\"",
+			"correct": false
+		}, {
+			"option": "class=\"d-none\"",
+			"correct": true
+		}, {
+			"option": "class=\"none\"",
+			"correct": false
+		}]
+	}, {
+		"q": "<div class=\"row\"><div class=\"col\">1 de 3</div><div class=\"col\">2 de 3</div><div class=\"col\">3 de 3</div></div>",
+		"a": [{
+			"option": "Las columnas se mantienen una al lado de la otra solo para dispositivos móviles.",
+			"correct": false
+		}, {
+			"option": "Las columnas se mantienen lado a lado para todas las resoluciones",
+			"correct": true
+		}, {
+			"option": "Las columnas se mantienen una al lado de la otra solo para tabletas",
+			"correct": false
+		}]
+	}, {
+		"q": "¿Para qué se utiliza el componente de entrada?",
+		"a": [{
+			"option": "Enviar data",
+			"correct": true
+		}, {
+			"option": "Mostrar imagen",
+			"correct": false
+		}, {
+			"option": "Mostrar un modal",
+			"correct": false
+		}]
+	},
+        {
+            "q": "¿Cuál de los siguientes es correcto acerca de Bootstrap?",
+            "a": [
+                {"option": "Contiene componentes integrados hermosos y funcionales que son fáciles de personalizar.",      "correct": false},
+                {"option": "El CSS sensible de Bootstrap se ajusta a computadoras de escritorio, tabletas y móviles.",     "correct": false},
+                {"option": "Proporciona una solución limpia y uniforme para crear una interfaz para desarrolladores.",      "correct": false},
+                {"option": "Todas las anteriores.",      "correct": true}
+            ]
+        },
+        
+        {
+            "q": "¿Cuáles son las principales diferencias entre la identificación y la clase?",
+            "a": [
+                {"option": "Las IDs son mejores que las Clases",      "correct": false},
+                {"option": "Las ID se supone que solo se deben usar una vez por página, pero las Clases se pueden usar varias veces por página, y un elemento puede tener más de una Clase pero debe tener solo una ID",     "correct": true},
+                {"option": "Las clases se deben usar solo una vez por página, pero las ID se pueden usar tantas veces como se desee en una página",      "correct": false},
+                {"option": "Las clases se deben usar solo una vez por página, pero un elemento puede tener más de una ID pero debe tener solo una Clase",      "correct": false}
+            ]
+        },
+        
+        {
+            "q": "El sistema de cuadrícula de Bootstrap se basa en cuántas columnas?",
+            "a": [
+                {"option": "12",      "correct": true},
+                {"option": "6",     "correct": false},
+                {"option": "9",     "correct": false},
+                {"option": "24",     "correct": false}
+            ]
+        },
+        
+        {
+            "q": "En Bootstrap, el contenido se debe colocar dentro de lo siguiente:",
+            "a": [
+                {"option": "divs",      "correct": false},
+                {"option": "rows",     "correct": false},
+                {"option": "containers",     "correct": false},
+                {"option": "columns",     "correct": true}
+            ]
+        },
+        
+        {
+            "q": "¿Qué lenguajes de programación se utilizaron para crear Bootstrap?",
+            "a": [
+                {"option": "HTML, CSS",      "correct": false},
+                {"option": "JavaScript",     "correct": false},
+                {"option": "LESS, SASS",     "correct": false},
+                {"option": "HTML, CSS plus optional Javascript",     "correct": true}
+            ]
+        },
+        
+        {
+            "q": "¿Cuál es el principal punto positivo de usar Bootstrap?",
+            "a": [
+                {"option": "Browser compatibility",      "correct": false},
+                {"option": "Mobile-first approach",     "correct": false},
+                {"option": "Responsive features",     "correct": false},
+                {"option": "All of the above",     "correct": true}
+            ]
+        },
+        
+        {
+            "q": "¿Cuál de la siguiente clase de sistema de cuadrícula de Bootstrap define el tamaño de la pantalla?",
+            "a": [
+                {"option": "xs, sm, mid, lg",      "correct": false},
+                {"option": "x, sm, md, lg",     "correct": false},
+                {"option": "xs, sm, md, lg",     "correct": true},
+                {"option": "s, sm, mid, lg",     "correct": false}
+            ]
+        },
+        
+        {
+            "q": "Establecer un nivel de cuadrícula de .col-sm-6 dice:",
+            "a": [
+                {"option": "Make this div 6 columns wide on the sm breakpoint and everything ABOVE",      "correct": true},
+                {"option": "Make this div 6 columns wide on the sm breakpoint and everything BELOW",     "correct": false},
+                {"option": "Make this div 6 columns wide on JUST the sm breakpoint",     "correct": false}
+            ]
+        },
+        
+        {
+            "q": "¿Qué proporciona la clase .container-fluid?",
+            "a": [
+                {"option": "Contenedor de ancho fijo",      "correct": true},
+                {"option": "Contenedor de ancho medio",     "correct": false},
+                {"option": "Contenedor de ancho completo",     "correct": false},
+                {"option": "Ninguna de las anteriores",     "correct": false}
+            ]
+        },
+        
+        {
+            "q": "En la clase Bootstrap .sm se usa para lo siguiente?",
+            "a": [
+                {"option": "grandes escritorios",      "correct": false},
+                {"option": "phones",     "correct": true},
+                {"option": "tablets",     "correct": false},
+                {"option": "laptops",     "correct": false}
+            ]
+        },
+        
+        {
+            "q": "¿Cuál de las siguientes opciones indica una caja grande para llamar atención adicional a algún contenido o información especial?",
+            "a": [
+                {"option": "pager",          "correct": false},
+                {"option": "pagination",     "correct": false},
+                {"option": "jumbotron",       "correct": true},
+                {"option": "glyphicon",      "correct": false}
+            ]
+        },
+        
+        {
+            "q": "Verdadero o Falso: Bootstrap es el móvil primero.",
+            "a": [
+                {"option": "Verdadero",      "correct": true},
+                {"option": "Falso",     "correct": false}
+            ]
+        },
+        
+        {
+            "q": "Verdadero o falso: un primer enfoque de escritorio considera los objetivos de un usuario móvil y presenta el contenido para ayudarlos a alcanzar esos objetivos. Elimina todo el contenido de relleno y filtra el contenido y presenta una colección concisa de contenido que se carga rápidamente y es fácil de usar.",
+            "a": [
+                {"option": "Verdadero",      "correct": false},
+                {"option": "Falso",     "correct": true}
+            ]
+        },
+        
+        {
+            "q": "¿Cuál de los siguientes es *no* compatible con Bootstrap 4?",
+            "a": [
+                {"option": "Google Chrome",       "correct": false},
+                {"option": "Mozilla Firefox",     "correct": false},
+                {"option": "Microsoft Edge",      "correct": false},
+                {"option": "Safari",      "correct": true}
+            ]
+        },
+        
+        {
+            "q": "¿Cuáles son los tres elementos principales de la cuadrícula Bootstrap que se enumeran en el orden correcto?",
+            "a": [
+                {"option": ".container > .row > .col",      "correct": true},
+                {"option": ".grid > .row > .col",          "correct": false},
+                {"option": ".col > .row > .container",     "correct": false}
+            ]
+        }
+	
+	]
+}
